@@ -1,0 +1,51 @@
+{
+	"pattrstorage" : 	{
+		"name" : "seq",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"live.gain~" : [ -2.591666685633442 ],
+					"tempo" : [ 336 ],
+					"gate1" : [ 1 ],
+					"gate2" : [ 1 ],
+					"gate3" : [ 1 ],
+					"gate4" : [ 0 ],
+					"note1" : [ 62 ],
+					"note2" : [ 45 ],
+					"note3" : [ 64 ],
+					"note4" : [ 41 ],
+					"flonum" : [  ],
+					"number[3]" : [  ],
+					"number[2]" : [  ],
+					"number[1]" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"live.gain~" : [ -2.591666685633442 ],
+					"tempo" : [ 223 ],
+					"gate1" : [ 1 ],
+					"gate2" : [ 1 ],
+					"gate3" : [ 0 ],
+					"gate4" : [ 0 ],
+					"note1" : [ 62 ],
+					"note2" : [ 68 ],
+					"note3" : [ 78 ],
+					"note4" : [ 49 ],
+					"flonum" : [  ],
+					"number[3]" : [  ],
+					"number[2]" : [  ],
+					"number[1]" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
