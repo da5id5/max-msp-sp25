@@ -10,9 +10,79 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 560.0, 193.0, 1000.0, 780.0 ],
+		"rect" : [ 698.0, 177.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 681.0, 67.5, 82.0, 20.0 ],
+					"text" : "playbar"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 510.0, 252.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "bang", "" ],
+					"patching_rect" : [ 482.0, 294.0, 102.0, 22.0 ],
+					"text" : "jit.world mybridge"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "playbar",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 486.0, 61.0, 177.0, 33.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 440.0, 121.0, 155.0, 22.0 ],
+					"text" : "jit.movie @output_texture 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 188.0, 42.0, 142.0, 22.0 ],
+					"text" : "read ../media/bridge.mp4"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"annotation" : "## The VIZZIE video player/looper ##",
 					"bgmode" : 1,
@@ -29,7 +99,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 199.0, 431.0, 348.0, 158.0 ],
+					"patching_rect" : [ 29.0, 231.0, 348.0, 158.0 ],
 					"prototypename" : "pixl",
 					"varname" : "playr",
 					"viewvisibility" : 1
@@ -43,7 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 246.0, 96.0, 22.0 ],
+					"patching_rect" : [ 66.0, 46.0, 96.0, 22.0 ],
 					"text" : "read bridge.mp4"
 				}
 
@@ -51,13 +121,59 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 6 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 6 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
  ],
-		"originid" : "pat-6",
+		"originid" : "pat-213",
 		"parameters" : 		{
 			"obj-6::obj-10" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
 			"obj-6::obj-112::obj-119" : [ "Speed high", "Speed high", 0 ],
