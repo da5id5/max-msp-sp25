@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 39.0, 62.0, 1029.0, 954.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 53.0, 133.0, 1285.0, 881.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
@@ -46,7 +20,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 867.0, 112.0, 154.0, 171.0 ],
+					"patching_rect" : [ 867.0, 112.0, 162.0, 171.0 ],
 					"text" : "check to see if you have good color tracking\n(calibration)\n\nsmall solid rectangle outline\n\nadjust room lighting, change target object\n\nreset target object on the suckah"
 				}
 
@@ -126,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.5, 515.0, 150.0, 37.0 ],
+					"patching_rect" : [ 353.5, 515.0, 152.0, 37.0 ],
 					"text" : "click on target object to set color for tracking"
 				}
 
@@ -612,7 +586,7 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 137.0, 700.0, 128.0, 32.0 ],
-					"saturation" : 0.796078431372549
+					"saturation" : 0.83921568627451
 				}
 
 			}
@@ -646,7 +620,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 648.0, 404.5, 150.0, 33.0 ],
+					"patching_rect" : [ 653.0, 399.0, 150.0, 33.0 ],
 					"text" : "turn color values to coordinates"
 				}
 
@@ -754,7 +728,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 528.0, 522.5, 79.0, 22.0 ],
+					"patching_rect" : [ 536.0, 517.0, 79.0, 22.0 ],
 					"text" : "jit.findbounds"
 				}
 
@@ -825,7 +799,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 545.0, 49.0, 119.0, 22.0 ],
+					"patching_rect" : [ 543.0, 63.0, 119.0, 22.0 ],
 					"text" : "jit.lcd 4 char 320 240"
 				}
 
@@ -837,7 +811,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.5, 408.0, 320.0, 240.0 ]
+					"patching_rect" : [ 41.0, 408.0, 320.0, 240.0 ]
 				}
 
 			}
@@ -848,7 +822,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 545.0, 88.0, 320.0, 240.0 ],
+					"patching_rect" : [ 543.0, 101.0, 320.0, 240.0 ],
 					"sync" : 1
 				}
 
@@ -1613,6 +1587,7 @@
 
 			}
  ],
+		"originid" : "pat-4",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

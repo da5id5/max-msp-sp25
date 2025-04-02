@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 698.0, 177.0, 1000.0, 780.0 ],
+		"rect" : [ 646.0, 177.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -173,7 +173,7 @@
 
 			}
  ],
-		"originid" : "pat-213",
+		"originid" : "pat-322",
 		"parameters" : 		{
 			"obj-6::obj-10" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
 			"obj-6::obj-112::obj-119" : [ "Speed high", "Speed high", 0 ],
@@ -202,55 +202,64 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "data-handler.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP25/max-msp-sp25/myAVproject/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lo_hi_UI_control.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP25/max-msp-sp25/myAVproject/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playr_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP25/max-msp-sp25/myAVproject/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizzie-datatexconvert.js",
-				"bootpath" : "C74:/packages/Vizzie/code",
+				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP25/max-msp-sp25/myAVproject/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizzie-global.js",
-				"bootpath" : "C74:/packages/Vizzie/code",
+				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP25/max-msp-sp25/myAVproject/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.playr.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP25/max-msp-sp25/myAVproject/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-blackframe.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP25/max-msp-sp25/myAVproject/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-object.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP25/max-msp-sp25/myAVproject/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-pwindow.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "~/Desktop/INTERACTIVE SOUND SP25/max-msp-sp25/myAVproject/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

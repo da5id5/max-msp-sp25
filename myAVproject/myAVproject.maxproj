@@ -2,7 +2,7 @@
 	"name" : "myAVproject",
 	"version" : 1,
 	"creationdate" : 3824040387,
-	"modificationdate" : 3824040477,
+	"modificationdate" : 3824645897,
 	"viewrect" : [ 125.0, 181.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -23,6 +23,10 @@
 				"kind" : "moviefile",
 				"local" : 1
 			}
+
+		}
+,
+		"code" : 		{
 
 		}
 
